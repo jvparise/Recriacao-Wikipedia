@@ -1,0 +1,73 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 144000px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+    text-align: center;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+.figure-right{
+    float: right;
+}
+.wikitable {
+    background-color: #f8f9fa;
+    color: #202122;
+    margin: 1em 0;
+    border: 1px solid #a2a9b1;
+    border-collapse:collapse;
+}
+table{
+    font-size: 100%;
+    text-align: center;
+}
+.mw-logo {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    min-width: 13.875em;
+}
+.vector-icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: calc(max(1.25em,20px));
+    min-width: 20px;
+    min-height: 20px;
+    width: 1.25em;
+    height: 1.25em;
+    display: inline-block;
+    vertical-align: text-bottom;
+    font-size: 14px;
+}
+
